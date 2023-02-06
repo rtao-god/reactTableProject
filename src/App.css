@@ -1,38 +1,204 @@
-.App {
-  text-align: center;
+/* =============================AUTHORIZATION============================= */
+/* =============================AUTHORIZATION============================= */
+/* =============================AUTHORIZATION============================= */
+
+#greetings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#greetings img {
+    width: 10%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#greetings p {
+    font-size: 26px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#authorization {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+#userData {
+    background: #161b22;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#userData p {
+    margin: 10px;
+    display: inline;
+    font-weight: var(--base-text-weight-normal, 400);
 }
+
+#userData {
+    padding: 10px;
+}
+
+#login {
+    margin: 30px;
+}
+
+#signInButton {
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+}
+
+#error {
+    display: none;
+    /* display: flex;
+    margin: 20px;
+    justify-content: center; */
+}
+
+
+
+
+/* =============================PRODUCT_TABLE============================= */
+/* =============================PRODUCT_TABLE============================= */
+/* =============================PRODUCT_TABLE============================= */
+
+.mainTable {
+    width: 100%;
+}
+
+.mainTable tbody tr td div {
+    border: 1px solid;
+    padding: 10px;
+}
+
+.mainTable {
+    border-collapse: collapse;
+}
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+
+
+/* =============================PRODUCT_VIEW=========================== */
+/* =============================PRODUCT_VIEW=========================== */
+/* =============================PRODUCT_VIEW=========================== */
+
+button {
+    cursor: pointer;
+}
+
+#productView {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#productViewBlock {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#product p {
+    margin: 10px;
+    display: inline;
+    font-weight: var(--base-text-weight-normal, 400);
+}
+
+#article,
+#quantity {
+    margin: 30px 0 30px 0;
+    width: 100%;
+}
+
+#spoilageAndReturn {
+    display: flex;
+    margin: 30px 0 30px 0;
+}
+
+#spoilageAndReturn input,
+#quantity input {
+    width: 40px;
+}
+
+
+
+
+/* =============================HISTORY=========================== */
+/* =============================HISTORY=========================== */
+/* =============================HISTORY=========================== */
+
+#history table {
+    border-collapse: collapse;
+    margin-right: 50px;
+}
+
+#history table tr th, #history table tr td {
+    border: 1px solid black;
+    padding: 20px;
+}
+
+#table2Example {
+    border-collapse: collapse;
+}
+
+#table2Example tr td {
+    border: 1px solid black;
+    padding: 20px;
+}
+
+#tableBlock {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+/* =============================MAIN_SCREEN=========================== */
+/* =============================MAIN_SCREEN=========================== */
+/* =============================MAIN_SCREEN=========================== */
+
+#workspace {
+    margin-top: 30px ;
+    width: 100px;
+    height: 100px;
+    background: rgb(122, 239, 255);
+}
+
+
+
